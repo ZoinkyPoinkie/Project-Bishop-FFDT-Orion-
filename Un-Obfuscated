@@ -51,5 +51,3 @@ Tab:AddButton({
        	loadstring(game:HttpGetAsync("https://pastebin.com/raw/HisbjQMD", true))()
   	end    
 })
-
-Bind:Set(Enum.KeyCode.P)
