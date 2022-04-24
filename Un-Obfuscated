@@ -10,7 +10,7 @@ local Tab = Window:MakeTab({
  
 local Tab2 = Window:MakeTab({
 	Name = "Credits",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://6961001357",
 	PremiumOnly = false
 })
 
