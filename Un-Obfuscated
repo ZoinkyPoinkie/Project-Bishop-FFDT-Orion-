@@ -29,6 +29,13 @@ Tab:AddButton({
 Tab:AddLabel("-----Features Below-----")
 
 Tab:AddButton({
+	Name = "AUTOFARM [NEW]",
+	Callback = function()
+       	loadstring(game:HttpGet("https://pastebin.com/raw/7xrgtv6z",true))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Autoplayer (wally's)",
 	Callback = function()
        	loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
