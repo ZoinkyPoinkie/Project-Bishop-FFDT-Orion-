@@ -10,9 +10,12 @@ local Tab = Window:MakeTab({
  
 local Tab2 = Window:MakeTab({
 	Name = "Credits",
-	Icon = "rbxassetid://6961001357",
+	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+Tab2:AddLabel("Developers On The Script are")
+Tab2:AddLabel("Zoinks#7514 (DivineCrimZ on v3rmillion)")
+Tab2:AddLabel("troy#0666 (NetBox on v3rmillion)")
 
 Tab:AddButton({
 	Name = "Autoplayer (wally's)",
@@ -34,7 +37,7 @@ Tab:AddButton({
       	loadstring(game:HttpGetAsync("https://pastebin.com/raw/VENcgJVr", true))()
   	end    
 })
- 
+
 Tab:AddButton({
 	Name = "Give Boss Mics",
 	Callback = function()
@@ -49,4 +52,4 @@ Tab:AddButton({
   	end    
 })
 
-Bind:Set(Enum.KeyCode.RightControl)
+Bind:Set(Enum.KeyCode.P)
