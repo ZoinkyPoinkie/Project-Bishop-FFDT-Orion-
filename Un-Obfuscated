@@ -18,6 +18,7 @@ local Tab2 = Window:MakeTab({
 Tab2:AddLabel("Developers On The Script are")
 Tab2:AddLabel("Zoinks#7514 (DivineCrimZ on v3rmillion)")
 Tab2:AddLabel("troy#0666 (NetBox on v3rmillion)")
+Tab2:AddLabel("\\#4264 (IAmAGoodScammer on v3rmillion)")
 
 Tab:AddButton({
 	Name = "Destroy GUI",
