@@ -65,13 +65,6 @@ Tab:AddButton({
       	loadstring(game:HttpGetAsync("https://pastebin.com/raw/VENcgJVr", true))()
   	end    
 })
-
-Tab:AddButton({
-	Name = "Give Boss Mics",
-	Callback = function()
-       	loadstring(game:HttpGet("https://pastebin.com/raw/ih5UbE2V",true))()
-  	end    
-})
  
 Tab:AddButton({
 	Name = "Redeem All Codes",
