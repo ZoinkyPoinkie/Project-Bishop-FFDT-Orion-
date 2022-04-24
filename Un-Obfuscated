@@ -8,6 +8,12 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
  
+local Tab2 = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
 Tab:AddButton({
 	Name = "Autoplayer (wally's)",
 	Callback = function()
@@ -42,3 +48,5 @@ Tab:AddButton({
        	loadstring(game:HttpGetAsync("https://pastebin.com/raw/HisbjQMD", true))()
   	end    
 })
+
+Bind:Set(Enum.KeyCode.RightControl)
