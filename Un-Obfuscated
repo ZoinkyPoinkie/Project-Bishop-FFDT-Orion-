@@ -42,14 +42,14 @@ Tab:AddLabel("2 accounts needed for winstreak farm")
 Tab:AddButton({
 	Name = "Winstreak Farm Left",
 	Callback = function()
-       	loadstring(game:HttpGet("https://pastebin.com/raw/knTh0DTW",true))()
+       	loadstring(game:HttpGet("https://pastebin.com/raw/tzvBcQQv",true))()
   	end    
 })
 
 Tab:AddButton({
 	Name = "Winstreak Farm Right",
 	Callback = function()
-       	loadstring(game:HttpGet("https://pastebin.com/raw/TMeU4kMQ",true))()
+       	loadstring(game:HttpGet("https://pastebin.com/raw/unDFCBME",true))()
   	end    
 })
 
