@@ -39,7 +39,7 @@ Tab:AddButton({
 Tab:AddLabel("-----Features Below-----")
 
 Tab:AddButton({
-	Name = "AUTOFARM [NEW]",
+	Name = "Points Farm",
 	Callback = function()
        	loadstring(game:HttpGet("https://pastebin.com/raw/7xrgtv6z",true))()
   	end    
