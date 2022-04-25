@@ -24,7 +24,7 @@ local Tab2 = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Tab2:AddLabel("Developers On The Script are")
+Tab2:AddLabel("People That Helped In Some Way")
 Tab2:AddLabel("DivineCrimZ Script Developer")
 Tab2:AddLabel("NetBox Script Developer")
 Tab2:AddLabel("Revy#5050 Moral Support (spam add him)")
