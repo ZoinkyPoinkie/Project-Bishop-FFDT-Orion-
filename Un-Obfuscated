@@ -37,11 +37,19 @@ Tab:AddButton({
 })
 
 Tab:AddLabel("-----Features Below-----")
+Tab:AddLabel("2 accounts needed for winstreak farm")
 
 Tab:AddButton({
-	Name = "Winstreak Farm (2 accounts needed)",
+	Name = "Winstreak Farm Left",
 	Callback = function()
-       	loadstring(game:HttpGet("https://pastebin.com/raw/21p05jBf",true))()
+       	loadstring(game:HttpGet("https://pastebin.com/raw/knTh0DTW",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Winstreak Farm Right",
+	Callback = function()
+       	loadstring(game:HttpGet("https://pastebin.com/raw/TMeU4kMQ",true))()
   	end    
 })
 
