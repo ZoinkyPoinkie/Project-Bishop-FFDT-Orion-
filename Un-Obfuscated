@@ -14,7 +14,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "Funky Friday Dev Tools"})
  
 local Tab = Window:MakeTab({
-	Name = "Tools",
+	Name = "Scripts",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
