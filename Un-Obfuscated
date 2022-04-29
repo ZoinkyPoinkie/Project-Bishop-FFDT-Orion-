@@ -11,33 +11,50 @@ end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
  
-local Window = OrionLib:MakeWindow({Name = "Funky Friday Dev Tools"})
+local Window = OrionLib:MakeWindow({Name = "Project Bishop: FFDT"})
  
 local Tab = Window:MakeTab({
-	Name = "Scripts",
-	Icon = "rbxassetid://4483345998",
+	Name = "Main Scripts",
+	Icon = "rbxassetid://7072718412",
 	PremiumOnly = false
 })
  
 local Tab2 = Window:MakeTab({
+	Name = "Other Scripts",
+	Icon = "rbxassetid://6031225819",
+	PremiumOnly = false
+})
+
+local Tab3 = Window:MakeTab({
+	Name = "Settings",
+	Icon = "rbxassetid://7072721682",
+	PremiumOnly = false
+})
+
+local Tab4 = Window:MakeTab({
 	Name = "Credits",
 	Icon = "rbxassetid://7072717857",
 	PremiumOnly = false
 })
-Tab2:AddLabel("People That Helped In Some Way")
-Tab2:AddLabel("DivineCrimZ: Script Developer")
-Tab2:AddLabel("NetBox Script: Developer")
-Tab2:AddLabel("Revy#5050: Moral Support (spam add him)")
+Tab4:AddLabel("ENZ0: Script Developer (ENZ0#7514)")
+Tab4:AddLabel("NetBox: Script Developer (troy#0666)")
+Tab4:AddLabel("Revyyy: Moral Support (Revy#5050)")
 
-Tab:AddButton({
+Tab3:AddButton({
 	Name = "Destroy GUI",
 	Callback = function()
         game:GetService("CoreGui").Orion:Destroy()
   	end    
 })
 
-Tab:AddLabel("-----Features Below-----")
 Tab:AddLabel("2 accounts needed for winstreak farm")
+
+Tab:AddButton({
+	Name = "Points Farm",
+	Callback = function()
+       	loadstring(game:HttpGet("https://pastebin.com/raw/7xrgtv6z",true))()
+  	end    
+})
 
 Tab:AddButton({
 	Name = "Winstreak Farm Left",
@@ -53,42 +70,35 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddButton({
-	Name = "Points Farm",
-	Callback = function()
-       	loadstring(game:HttpGet("https://pastebin.com/raw/7xrgtv6z",true))()
-  	end    
-})
-
-Tab:AddButton({
+Tab2:AddButton({
 	Name = "Autoplayer (wally's)",
 	Callback = function()
        	loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
   	end    
 })
  
-Tab:AddButton({
+Tab2:AddButton({
 	Name = "Admin Animation (aus_si)",
 	Callback = function()
         loadstring(game:HttpGetAsync("https://pastebin.com/raw/wAi5N9Yh", true))()
   	end    
 })
  
-Tab:AddButton({
+Tab2:AddButton({
 	Name = "Content Creator Mic",
 	Callback = function()
       	loadstring(game:HttpGetAsync("https://pastebin.com/raw/VENcgJVr", true))()
   	end    
 })
 
-Tab:AddButton({
+Tab2:AddButton({
 	Name = "Give Boss Mics",
 	Callback = function()
       	loadstring(game:HttpGetAsync("https://pastebin.com/raw/dQBRhwTk", true))()
   	end    
 })
  
-Tab:AddButton({
+Tab2:AddButton({
 	Name = "Redeem All Codes",
 	Callback = function()
        	loadstring(game:HttpGetAsync("https://pastebin.com/raw/HisbjQMD", true))()
