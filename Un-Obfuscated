@@ -21,7 +21,7 @@ local Tab = Window:MakeTab({
  
 local Tab2 = Window:MakeTab({
 	Name = "Credits",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://7072717857",
 	PremiumOnly = false
 })
 Tab2:AddLabel("People That Helped In Some Way")
