@@ -38,7 +38,6 @@ local Tab4 = Window:MakeTab({
 })
 Tab4:AddLabel("ENZ0: Script Developer (ENZ0#7514)")
 Tab4:AddLabel("NetBox: Script Developer (troy#0666)")
-Tab4:AddLabel("Revyyy: Moral Support (Revy#5050)")
 Tab4:AddLabel("Join The Discord For Updates: .gg/XWEJZPAy")
 
 Tab3:AddButton({
