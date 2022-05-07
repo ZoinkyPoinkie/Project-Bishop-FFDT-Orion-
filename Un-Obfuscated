@@ -3,7 +3,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/PwRMK30f'),true))()
 if game.PlaceId == 6447798030 then
 
 --Group Join Noti
-loadstring(game:HttpGet('https://pastebin.com/raw/FVpvr86P'))()
+loadstring(game:HttpGet('https://pastebin.com/raw/NyScLyTv'))()
 
 --Anti AFk
 print("Anti Afk On")
