@@ -1,8 +1,5 @@
 if game.PlaceId == 6447798030 then
 
---Group Join Noti
-loadstring(game:HttpGet('https://pastebin.com/raw/NyScLyTv'))()
-
 --Anti AFk
 print("Anti Afk On")
 local vu = game:GetService("VirtualUser")
