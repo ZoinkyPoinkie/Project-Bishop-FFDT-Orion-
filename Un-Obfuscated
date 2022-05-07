@@ -1,13 +1,13 @@
 if game.PlaceId == 6447798030 then
 
-print("Anti Afk On")
+--Group Join Noti
+loadstring(game:HttpGet('https://pastebin.com/raw/FVpvr86P'))()
 
-local vu = game:GetService("VirtualUser")
-game:GetService("Players").LocalPlayer.Idled:connect(function()
-   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-   wait(1)
-   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-end)
+--Anti AFk
+loadstring(game:HttpGet('https://pastebin.com/raw/WTTs9hCf'))()
+
+--Group Ranks Above Head
+loadstring(game:HttpGet('https://pastebin.com/raw/PwRMK30f'))()
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
  
