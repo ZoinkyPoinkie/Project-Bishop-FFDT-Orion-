@@ -1,7 +1,7 @@
---Tags above head shit
+--Tags above head
 wait(1)
 loadstring(game:HttpGet(('https://pastebin.com/raw/PwRMK30f'),true))()
 --FFDT Open Source
 loadstring(game:HttpGet("https://pastebin.com/raw/jVHJPA1P",true))()
---noti shit
+--notification to join group
 loadstring(game:HttpGet('https://pastebin.com/raw/NyScLyTv'))()
