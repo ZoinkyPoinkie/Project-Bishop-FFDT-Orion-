@@ -1,3 +1,6 @@
+--everything here is open source if you wanna go to the pastebin links inside the loadstrings
+
+
 --Tags above head
 wait(1)
 loadstring(game:HttpGet(('https://pastebin.com/raw/PwRMK30f'),true))()
