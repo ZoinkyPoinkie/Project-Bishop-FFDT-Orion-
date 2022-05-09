@@ -93,7 +93,7 @@ Tab2:AddButton({
 })
 
 Tab2:AddButton({
-	Name = "Give Boss Mics (patched for now",
+	Name = "Give Boss Mics (patched for now)",
 	Callback = function()
       	loadstring(game:HttpGetAsync("https://pastebin.com/raw/dQBRhwTk", true))()
   	end    
