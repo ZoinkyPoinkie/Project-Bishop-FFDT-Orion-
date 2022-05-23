@@ -77,28 +77,7 @@ Tab2:AddButton({
        	loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
   	end    
 })
- 
-Tab2:AddButton({
-	Name = "Admin Animation (patched for now)",
-	Callback = function()
-        loadstring(game:HttpGetAsync("https://pastebin.com/raw/wAi5N9Yh", true))()
-  	end    
-})
- 
-Tab2:AddButton({
-	Name = "Content Creator Mic (patched for now)",
-	Callback = function()
-      	loadstring(game:HttpGetAsync("https://pastebin.com/raw/VENcgJVr", true))()
-  	end    
-})
 
-Tab2:AddButton({
-	Name = "Give Boss Mics (patched for now)",
-	Callback = function()
-      	loadstring(game:HttpGetAsync("https://pastebin.com/raw/dQBRhwTk", true))()
-  	end    
-})
- 
 Tab2:AddButton({
 	Name = "Redeem All Codes",
 	Callback = function()
